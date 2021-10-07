@@ -1,16 +1,21 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.hero {
+	height: 100vh;
+	h1 {
+		font-size: 182px;
+	}
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+.hero-section-container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	.blue-section {
+		background-color: #012483;
+		height: 100%;
+		width: 100%;
+	}
+	.orange-section {
+		background-color: #d4882b;
+		height: 100%;
+		width: 100%;
+	}
 }
