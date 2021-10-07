@@ -1,21 +1,23 @@
 .hero {
 	height: 100vh;
-	h1 {
-		font-size: 182px;
-	}
+}
+
+.hero h1 {
+	font-size: 182px;
 }
 .hero-section-container {
 	display: flex;
 	height: 100%;
 	width: 100%;
-	.blue-section {
-		background-color: #012483;
-		height: 100%;
-		width: 100%;
-	}
-	.orange-section {
-		background-color: #d4882b;
-		height: 100%;
-		width: 100%;
-	}
+}
+
+.hero-section-container .blue-section {
+	background-color: #012483;
+	height: 100%;
+	width: 100%;
+}
+.hero-section-container .orange-section {
+	background-color: #d4882b;
+	height: 100%;
+	width: 100%;
 }
