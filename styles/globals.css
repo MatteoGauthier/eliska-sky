@@ -1,23 +1,49 @@
 .hero {
 	height: 100vh;
+	position: relative;
 }
 
 .hero h1 {
 	font-size: 182px;
 }
+
+.hero-title {
+	position: absolute;
+	width: 100%;
+  text-align: center;
+	color: white;
+  z-index: 10;
+}
+
 .hero-section-container {
 	display: flex;
 	height: 100%;
 	width: 100%;
 }
 
-.hero-section-container .blue-section {
+.section {
+  height: 100%;
+	width: 100%;
+}
+
+.hero-section-container .blue-block {
 	background-color: #012483;
 	height: 100%;
 	width: 100%;
 }
-.hero-section-container .orange-section {
+.hero-section-container .orange-block {
 	background-color: #d4882b;
 	height: 100%;
 	width: 100%;
+}
+
+.fake-body {
+  padding: 10rem;
+  background: #000;
+  z-index: 20;
+  position: absolute;
+}
+
+.relative {
+  position: relative;
 }
