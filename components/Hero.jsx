@@ -2,7 +2,7 @@ import React from "react"
 
 function Hero() {
 	return (
-		<div className="hero">
+		<div className="hero section-scroll">
 			<div className="hero-title">
 				<h1>Eliška Sky</h1>
 			</div>
