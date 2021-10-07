@@ -10,7 +10,7 @@ function Footer() {
                 </div>
                 <div className="footer__link">
                     <a href="">Accueil</a>
-                    <a href="">Qui est Eliska Sky ?</a>
+                    <a href="">Qui est Eliška Sky ?</a>
                     <a href="">Découvrir ses oeuvres</a>
                 </div>
             </div>
