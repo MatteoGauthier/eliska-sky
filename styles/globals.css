@@ -116,3 +116,48 @@ html {
 .section-scroll {
   scroll-snap-align: start;
 }
+
+
+
+/* Footer */
+
+.footer__container{
+	display: flex;
+	flex-direction: column;
+	margin: 55px 79px 0  79px;
+
+}
+
+.footer__container p{
+	font-family: 'Inter';
+	font-size: 24px;
+}
+
+.footer__txt{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer__greatings h4{
+	font-family: 'Agrandir Grand';
+	font-size: 132px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin:0;
+}
+
+.footer__link{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer__link a {
+	font-family: 'Inter';
+	display: inline-block;
+	font-size: 24px;
+	text-align: right;
+	margin: 0;
+
+}
