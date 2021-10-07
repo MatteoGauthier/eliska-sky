@@ -47,3 +47,27 @@
 .relative {
   position: relative;
 }
+
+.hero-bottom-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  color: white;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+}
+
+.year-info {
+  display: flex;
+  align-items: center;
+}
+
+.square-info {
+  margin-left: 8px;
+  height: 13px;
+  width: 13px;
+  background-color: white;
+}
