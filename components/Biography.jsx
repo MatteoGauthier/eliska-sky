@@ -31,11 +31,15 @@ function Biography() {
 				</p>
 			</div>
 			<div className="biography__works">
-				<Image src="/../public/images/ArrowDown.svg" alt="ArrowDown" width={16} height={21} />
+				<div className="biography__works-image" >
+					<Image src="/../public/images/ArrowDown.svg" alt="ArrowDown" width={16} height={21} />
+				</div>
 				<span></span>
 				<p>Discover Eliška works</p>
 				<span></span>
-				<Image src="/../public/images/ArrowDown.svg" alt="ArrowDown" width={16} height={21} />
+				<div className="biography__works-image" >
+					<Image src="/../public/images/ArrowDown.svg" alt="ArrowDown" width={16} height={21} />
+				</div>	
 			</div>
 		</div>
 	)

@@ -28,7 +28,7 @@
 }
 
 .biography__header-text h1 {
-	font-family: "Agrandir Grand"; /* Ici c'est Moniqa la font */
+	font-family: "Moniqa"; 
 	font-size: 129px;
 	display: inline-block;
 	margin: 0;
@@ -61,7 +61,7 @@
 }
 
 .biography__works span {
-	width: 471.5px;
+	width: 30%;
 	height: 1px;
 	background-color: black;
 }
@@ -71,4 +71,140 @@
 	font-size: 20px;
 	text-align: center;
 	margin: 0;
+}
+
+
+/* Responsive */ 
+@media (max-width: 575.98px){
+	.biography__container {
+		margin: 35px 25px 0 25px;
+	}
+
+	.biography__header-image{
+		width: 130px;
+		height: 130px;
+	}
+
+	.biography__header-text h2 {
+		font-size: 14px;
+	}
+	
+	.biography__header-text h1 {
+		font-size: 55px;
+	}
+
+	.biography__text p {
+		font-size: 14px;
+		margin: 10px 0;
+	}
+
+	.biography__text {
+		flex-direction: column;
+		margin: 10px 0;
+	}
+
+	.biography__works {
+		margin: 25px 0 50px 0;
+	}
+
+	.biography__works-image {
+		width: 13px;
+		align-self: center;
+	}
+	
+	.biography__works span {
+		width: 15%;
+	}
+	
+	.biography__works p {
+		font-size: 18px;
+	}
+	
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+	.biography__container {
+		margin: 35px 45px 0 45px;
+	}
+
+	.biography__header-image{
+		width: 245px;
+		height: 245px;
+	}
+
+	.biography__header-text h2 {
+		font-size: 18px;
+	}
+	
+	.biography__header-text h1 {
+		font-size: 90px;
+	}
+
+	.biography__text p {
+		font-size: 16px;
+		margin: 20px 0;
+	}
+
+	.biography__text {
+		flex-direction: column;
+		margin: 20px 0;
+	}
+
+	.biography__works {
+		margin: 25px 0 50px 0;
+	}
+
+	.biography__works-image {
+		width: 13px;
+		align-self: center;
+	}
+	
+	.biography__works span {
+		width: 15%;
+	}
+	
+	.biography__works p {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+	.biography__container {
+		margin: 35px 65px 0 65px;
+	}
+
+	.biography__header-text h2 {
+		font-size: 22px;
+	}
+	
+	.biography__header-text h1 {
+		font-size: 130px;
+	}
+
+	.biography__text p {
+		font-size: 18px;
+		margin: 20px 0;
+	}
+
+	.biography__text {
+		flex-direction: column;
+		margin: 20px 0;
+	}
+
+	.biography__works {
+		margin: 25px 0 50px 0;
+	}
+
+	.biography__works-image {
+		width: 13px;
+		align-self: center;
+	}
+	
+	.biography__works span {
+		width: 15%;
+	}
+	
+	.biography__works p {
+		font-size: 20px;
+	}
 }
