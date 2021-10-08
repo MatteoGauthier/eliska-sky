@@ -7,6 +7,20 @@
 	font-size: 182px;
 }
 
+.section-block  {
+	height: 100%;
+	width: 100%;
+	/* z-index: 30; */
+	position: absolute;
+}
+
+.z-30 {
+	z-index: 30;
+}
+.z-0 {
+	z-index: 0;
+}
+
 .hero-title {
 	position: absolute;
 	width: 100%;
@@ -24,6 +38,7 @@
 .section {
 	height: 100%;
 	width: 100%;
+	position: relative;
 }
 
 .hero-section-container .blue-block {
@@ -76,8 +91,6 @@
 	background-color: white;
 }
 
-
-
 .flex-row-reverse {
 	flex-direction: row-reverse;
 }
@@ -94,6 +107,5 @@ html {
 }
 
 .section-scroll {
-  scroll-snap-align: start;
+	scroll-snap-align: start;
 }
-
