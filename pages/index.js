@@ -17,7 +17,7 @@ export default function Home({ artworksData }) {
 					))}
 				</ArtWorksContainer>
 			</div>
-			{/* <Footer /> */}
+
 		</>
 	)
 }
