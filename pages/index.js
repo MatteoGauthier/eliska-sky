@@ -3,18 +3,27 @@ import ArtWorksContainer from "../components/ArtWorksContainer"
 import Hero from "../components/Hero"
 import Footer from "../components/Footer"
 import Biography from "../components/Biography"
+import artworksYaml from "../content/artworks.yml"
 
-export default function Home() {
+export default function Home({ artworksData }) {
 	return (
 		<div className="main">
 			<Hero />
 			<Biography />
 			<ArtWorksContainer>
-				<ArtWork />
-				<ArtWork reverse />
-				<ArtWork />
+				{artworksData.map((artwork) => (
+					<ArtWork key={artwork.id} {...artwork} />
+				))}
 			</ArtWorksContainer>
 			<Footer />
 		</div>
 	)
+}
+
+export async function getStaticProps(context) {
+	return {
+		props: {
+			artworksData: artworksYaml,
+		}, // will be passed to the page component as props
+	}
 }
