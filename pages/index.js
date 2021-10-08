@@ -16,6 +16,7 @@ export default function Home({ artworksData }) {
 						<ArtWork key={artwork.title} {...artwork} />
 					))}
 				</ArtWorksContainer>
+				<Footer/>
 			</div>
 
 		</>
