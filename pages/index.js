@@ -12,7 +12,7 @@ export default function Home({ artworksData }) {
 			<Biography />
 			<ArtWorksContainer>
 				{artworksData.map((artwork) => (
-					<ArtWork key={artwork.id} {...artwork} />
+					<ArtWork key={artwork.title} {...artwork} />
 				))}
 			</ArtWorksContainer>
 			<Footer />
