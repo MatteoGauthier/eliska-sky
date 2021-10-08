@@ -1,0 +1,73 @@
+/* Biography */
+
+.biography__container {
+	margin: 88px 80px 0 80px;
+	display: flex;
+	flex-direction: column;
+}
+
+.biography__header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.biography__header-text {
+	display: flex;
+	flex-direction: column;
+	margin-left: 24px;
+}
+
+.biography__header-text h2 {
+	font-family: "Moniqa";
+	font-weight: normal;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.biography__header-text h1 {
+	font-family: "Agrandir Grand"; /* Ici c'est Moniqa la font */
+	font-size: 129px;
+	display: inline-block;
+	margin: 0;
+}
+
+.biography__text {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 56px 0;
+}
+
+.biography__text p {
+	font-family: "Inter";
+	font-size: 18px;
+	text-align: justify;
+	margin: 0;
+	flex-basis: 30%;
+}
+
+.biography__works {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 30px 0 70px 0;
+	cursor: pointer;
+}
+
+.biography__works span {
+	width: 471.5px;
+	height: 1px;
+	background-color: black;
+}
+
+.biography__works p {
+	font-family: "Inter";
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+}

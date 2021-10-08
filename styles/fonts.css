@@ -1,27 +1,34 @@
 @font-face {
-  font-family: 'Moniqa';
-  src: url('/fonts/subset-Moniqa-BoldCondensedDisplay.woff2') format('woff2'),
-      url('/fonts/subset-Moniqa-BoldCondensedDisplay.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+	font-family: "Moniqa";
+	src: url("/fonts/subset-Moniqa-BoldCondensedDisplay.woff2") format("woff2"),
+		url("/fonts/subset-Moniqa-BoldCondensedDisplay.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-  font-family: 'Moniqa';
-  src: url('/fonts/subset-Moniqa-CondensedParagraph.woff2') format('woff2'),
-      url('/fonts/subset-Moniqa-CondensedParagraph.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+	font-family: "Moniqa";
+	src: url("/fonts/subset-Moniqa-CondensedParagraph.woff2") format("woff2"),
+		url("/fonts/subset-Moniqa-CondensedParagraph.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-  font-family: 'Agrandir Grand';
-  src: url('/fonts/subset-Agrandir-GrandLight.woff2') format('woff2'),
-      url('/fonts/subset-Agrandir-GrandLight.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
+	font-family: "Agrandir Grand";
+	src: url("/fonts/subset-Agrandir-GrandLight.woff2") format("woff2"),
+		url("/fonts/subset-Agrandir-GrandLight.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
 }
 
+@font-face {
+	font-family: "Pier Sans";
+	src: url("/fonts/subset-PierSans-Bold.woff2") format("woff2"), url("/fonts/subset-PierSans-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
