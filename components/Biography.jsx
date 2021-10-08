@@ -5,7 +5,7 @@ import bioImgSrc from "../public/images/BiographyImage.jpg"
 
 function Biography() {
 	return (
-		<div className="biography__container">
+		<div className="biography__container" id="biography">
 			<div className="biography__header">
 				<div className="biography__header-image">
 					<Image src={bioImgSrc} alt="Picture of the artist" width={283} height={283} />

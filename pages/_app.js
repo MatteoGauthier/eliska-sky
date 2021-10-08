@@ -8,7 +8,6 @@ import "../styles/globals.css"
 import "../styles/Biography.css"
 import "../styles/Footer.css"
 import "../styles/Artworks.css"
-import Footer from "../components/Footer"
 
 function MyApp({ Component, pageProps }) {
 	const containerRef = useRef(null)
@@ -25,7 +24,6 @@ function MyApp({ Component, pageProps }) {
 			<main data-scroll-container ref={containerRef}>
 				<Component {...pageProps} />
 			</main>
-			<Footer />
 		</LocomotiveScrollProvider>
 	)
 }
