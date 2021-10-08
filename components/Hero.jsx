@@ -6,6 +6,8 @@ import womenOrangeTransparent from "../public/images/women_orange_transparent.pn
 import womenBlue from "../public/images/women_blue.png"
 import womenBlueTransparent from "../public/images/women_blue_transparent.png"
 
+import orangeBgSrc from "../public/images/orange_bg.png"
+import blueBgSrc from "../public/images/blue_bg.png"
 function Hero() {
 	return (
 		<div className="hero section-scroll">
@@ -15,18 +17,50 @@ function Hero() {
 			<div className="hero-section-container">
 				<div className="relative section">
 					<div className="section-block z-30">
-						<Image src={womenBlueTransparent} quality={100} layout="fill" alt="women in blue" />
+						<Image
+							draggable={false}
+							src={womenBlueTransparent}
+							quality={100}
+							layout="fill"
+							objectFit="contain"
+							objectPosition="center"
+							alt="women in blue"
+						/>
 					</div>
 					<div className="section-block z-0">
-						<Image src={womenBlue} quality={100} layout="fill" alt="women in blue with background" />
+						<Image
+							draggable={false}
+							src={blueBgSrc}
+							quality={60}
+							layout="fill"
+							objectFit="cover"
+							objectPosition="center"
+							alt="women in blue with background"
+						/>
 					</div>
 				</div>
 				<div className="relative section">
 					<div className="section-block z-30">
-						<Image src={womenOrangeTransparent} quality={100} layout="fill" alt="women in orange with background" />
+						<Image
+							draggable={false}
+							src={womenOrangeTransparent}
+							quality={100}
+							layout="fill"
+							objectFit="contain"
+							objectPosition="center"
+							alt="women in orange with background"
+						/>
 					</div>
 					<div className="section-block z-0">
-						<Image src={womenOrange} quality={100} layout="fill" alt="women in orange" />
+						<Image
+							draggable={false}
+							src={orangeBgSrc}
+							quality={60}
+							layout="fill"
+							objectFit="cover"
+							objectPosition="center"
+							alt="women in orange"
+						/>
 					</div>
 				</div>
 			</div>
