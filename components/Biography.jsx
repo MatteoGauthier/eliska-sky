@@ -1,12 +1,14 @@
 import Image from "next/image"
+import ArrowDownIcon from "../components/svg/ArrowDownIcon"
 import React from "react"
+import bioImgSrc from "../public/images/BiographyImage.jpg"
 
 function Biography() {
 	return (
 		<div className="biography__container">
 			<div className="biography__header">
 				<div className="biography__header-image">
-					<Image src="/../public/images/BiographyImage.jpg" alt="Picture of the artist" width={283} height={283} />
+					<Image src={bioImgSrc} alt="Picture of the artist" width={283} height={283} />
 				</div>
 				<div className="biography__header-text">
 					<h2>Czech artist ~ art director ~ photographer</h2>
@@ -31,15 +33,15 @@ function Biography() {
 				</p>
 			</div>
 			<div className="biography__works">
-				<div className="biography__works-image" >
-					<Image src="/../public/images/ArrowDown.svg" alt="ArrowDown" width={16} height={21} />
+				<div className="biography__works-image">
+					<ArrowDownIcon className="arrow-down-icon" />
 				</div>
 				<span></span>
 				<p>Discover Eliška works</p>
 				<span></span>
-				<div className="biography__works-image" >
-					<Image src="/../public/images/ArrowDown.svg" alt="ArrowDown" width={16} height={21} />
-				</div>	
+				<div className="biography__works-image">
+					<ArrowDownIcon className="arrow-down-icon" />
+				</div>
 			</div>
 		</div>
 	)
