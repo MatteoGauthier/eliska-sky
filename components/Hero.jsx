@@ -65,7 +65,7 @@ function Hero() {
 				</div>
 			</div>
 			<div className="hero-bottom-info">
-				<span>CZECH ARTIST. DIRECTOR ARTISTIC. PHOTOGRAPHE.</span>
+				<span>ARTISTE CZECH. DIRECTRICE ARTISTIQUE. PHOTOGRAPHE.</span>
 				<div className="year-info">
 					<span>2021 WORKS </span>
 					<div className="square-info"></div>
