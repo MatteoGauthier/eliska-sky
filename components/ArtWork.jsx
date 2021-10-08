@@ -6,8 +6,13 @@ function ArtWork({ reverse, description, image_src, title }) {
 		<article className={clsx("artwork-container section-scroll", reverse && "flex-row-reverse")}>
 			<div className="artwork-image-wrapper"></div>
 			<div className="artwork-description-wrapper">
-				<h2>{title}</h2>
-				<p>{description}</p>
+				<div className="artwork-description">
+					<h2>{title}</h2>
+					<p>{description}</p>
+				</div>
+				<div className="artwork-separator">
+					<hr />
+				</div>
 			</div>
 		</article>
 	)
