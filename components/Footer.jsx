@@ -10,9 +10,9 @@ function Footer() {
                     <h4>Thank you</h4>
                 </div>
                 <div className="footer__link">
-                    <Link href="/"><a>Accueil</a></Link>
-                    <a href="#biography">Qui est Eliška Sky ?</a>
-                    <a href="#work">Découvrir ses oeuvres</a>
+                    <Link href="/"><a data-scroll-position="top">Accueil</a></Link>
+                    <a href="#biography" data-scroll-target="#biography">Qui est Eliška Sky ?</a>
+                    <a href="#work" data-scroll-target="#work">Découvrir ses oeuvres</a>
                 </div>
             </div>
 		</div>

@@ -3,6 +3,10 @@
 	max-height:1200px;
 	position: relative;
 }
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	position: relative;
 	z-index: 0;
