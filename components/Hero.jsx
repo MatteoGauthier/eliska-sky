@@ -17,50 +17,62 @@ function Hero() {
 			<div className="hero-section-container">
 				<div className="relative section">
 					<div className="section-block z-30">
-						<Image
-							draggable={false}
-							src={womenBlueTransparent}
-							quality={100}
-							layout="fill"
-							objectFit="contain"
-							objectPosition="center"
-							alt="women in blue"
-						/>
+						<div className="section-block-image">
+							<Image
+								draggable={false}
+								src={womenBlueTransparent}
+								quality={100}
+								layout="fill"
+								objectFit="contain"
+								objectPosition="center"
+								alt="women in blue"
+								placeholder="blur"
+							/>
+						</div>
 					</div>
 					<div className="section-block z-0">
-						<Image
-							draggable={false}
-							src={blueBgSrc}
-							quality={60}
-							layout="fill"
-							objectFit="cover"
-							objectPosition="center"
-							alt="women in blue with background"
-						/>
+						<div className="section-block-image">
+							<Image
+								draggable={false}
+								src={blueBgSrc}
+								quality={60}
+								layout="fill"
+								objectFit="cover"
+								objectPosition="center"
+								alt="women in blue with background"
+								placeholder="blur"
+							/>
+						</div>
 					</div>
 				</div>
 				<div className="relative section">
 					<div className="section-block z-30">
-						<Image
-							draggable={false}
-							src={womenOrangeTransparent}
-							quality={100}
-							layout="fill"
-							objectFit="contain"
-							objectPosition="center"
-							alt="women in orange with background"
-						/>
+						<div className="section-block-image">
+							<Image
+								draggable={false}
+								src={womenOrangeTransparent}
+								quality={100}
+								layout="fill"
+								objectFit="contain"
+								objectPosition="center"
+								alt="women in orange with background"
+								placeholder="blur"
+							/>
+						</div>
 					</div>
 					<div className="section-block z-0">
-						<Image
-							draggable={false}
-							src={orangeBgSrc}
-							quality={60}
-							layout="fill"
-							objectFit="cover"
-							objectPosition="center"
-							alt="women in orange"
-						/>
+						<div className="section-block-image">
+							<Image
+								draggable={false}
+								src={orangeBgSrc}
+								quality={60}
+								layout="fill"
+								objectFit="cover"
+								objectPosition="center"
+								alt="women in orange"
+								placeholder="blur"
+							/>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -1,6 +1,6 @@
 .hero {
 	height: 100vh;
-	max-height:1200px;
+	max-height: 1200px;
 	position: relative;
 }
 body {
@@ -43,6 +43,11 @@ body {
 	position: absolute;
 }
 
+.section-block-image {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
 .z-30 {
 	z-index: 30;
 }
