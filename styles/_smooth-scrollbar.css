@@ -1,0 +1,8 @@
+.scrollbar-track {
+  background-color: transparent !important;
+  width: 4px !important;
+}
+.scrollbar-thumb {
+  width: 4px !important;
+  right: 0;
+}

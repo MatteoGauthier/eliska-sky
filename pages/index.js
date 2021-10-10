@@ -4,11 +4,12 @@ import Hero from "../components/Hero"
 import Footer from "../components/Footer"
 import Biography from "../components/Biography"
 import artworksYaml from "../content/artworks.yml"
+import Layout from "../components/Layout"
 
 export default function Home({ artworksData }) {
 	return (
-		<>
-			<div className="main">
+		<Layout>
+			<div className="main ">
 				<Hero />
 				<Biography />
 				<ArtWorksContainer>
@@ -16,10 +17,9 @@ export default function Home({ artworksData }) {
 						<ArtWork key={artwork.title} {...artwork} />
 					))}
 				</ArtWorksContainer>
-				<Footer/>
+				<Footer />
 			</div>
-
-		</>
+		</Layout>
 	)
 }
 
