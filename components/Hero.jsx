@@ -15,7 +15,7 @@ function Hero() {
 				<h1>Eliška Sky</h1>
 			</div>
 			<div className="hero-section-container">
-				<div className="relative section">
+				<div id="first_section" className="relative section">
 					<div className="section-block z-30">
 						<div className="section-block-image">
 							<Image
@@ -46,7 +46,7 @@ function Hero() {
 						</div>
 					</div>
 				</div>
-				<div className="relative section">
+				<div id="second_section" className="relative section">
 					<div className="section-block z-30">
 						<div className="section-block-image">
 							<Image
@@ -79,7 +79,7 @@ function Hero() {
 				</div>
 			</div>
 			<div className="hero-bottom-info">
-				<span>ARTISTE CZECH. DIRECTRICE ARTISTIQUE. PHOTOGRAPHE.</span>
+				<span id="mini-bio">ARTISTE CZECH. DIRECTRICE ARTISTIQUE. PHOTOGRAPHE.</span>
 				<div className="year-info">
 					<span>2021 WORKS </span>
 					<div className="square-info"></div>

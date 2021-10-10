@@ -9,7 +9,7 @@
 .biography__header {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items: flex-end;
 }
 
 .biography__header-text {
@@ -29,7 +29,7 @@
 }
 
 .biography__header-text h1 {
-	font-family: "Moniqa"; 
+	font-family: "Moniqa";
 	font-size: 129px;
 	display: inline-block;
 	margin: 0;
@@ -74,14 +74,13 @@
 	margin: 0;
 }
 
-
-/* Responsive */ 
-@media (max-width: 575.98px){
+/* Responsive */
+@media (max-width: 575.98px) {
 	.biography__container {
 		margin: 35px 25px 0 25px;
 	}
 
-	.biography__header-image{
+	.biography__header-image {
 		width: 130px;
 		height: 130px;
 	}
@@ -89,7 +88,7 @@
 	.biography__header-text h2 {
 		font-size: 14px;
 	}
-	
+
 	.biography__header-text h1 {
 		font-size: 55px;
 	}
@@ -112,23 +111,22 @@
 		width: 13px;
 		align-self: center;
 	}
-	
+
 	.biography__works span {
 		width: 15%;
 	}
-	
+
 	.biography__works p {
 		font-size: 18px;
 	}
-	
 }
 
-@media (min-width: 576px) and (max-width: 767.98px){
+@media (min-width: 576px) and (max-width: 767.98px) {
 	.biography__container {
 		margin: 35px 45px 0 45px;
 	}
 
-	.biography__header-image{
+	.biography__header-image {
 		width: 245px;
 		height: 245px;
 	}
@@ -136,7 +134,7 @@
 	.biography__header-text h2 {
 		font-size: 18px;
 	}
-	
+
 	.biography__header-text h1 {
 		font-size: 90px;
 	}
@@ -159,17 +157,17 @@
 		width: 13px;
 		align-self: center;
 	}
-	
+
 	.biography__works span {
 		width: 15%;
 	}
-	
+
 	.biography__works p {
 		font-size: 20px;
 	}
 }
 
-@media (min-width: 768px) and (max-width: 991.98px){
+@media (min-width: 768px) and (max-width: 991.98px) {
 	.biography__container {
 		margin: 35px 65px 0 65px;
 	}
@@ -177,7 +175,7 @@
 	.biography__header-text h2 {
 		font-size: 22px;
 	}
-	
+
 	.biography__header-text h1 {
 		font-size: 130px;
 	}
@@ -200,11 +198,11 @@
 		width: 13px;
 		align-self: center;
 	}
-	
+
 	.biography__works span {
 		width: 15%;
 	}
-	
+
 	.biography__works p {
 		font-size: 20px;
 	}

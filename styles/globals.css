@@ -128,6 +128,8 @@ body {
 	height: 13px;
 	width: 13px;
 	background-color: white;
+	margin-top: -5px;
+	line-height: 1;
 }
 
 .flex-row-reverse {
@@ -144,8 +146,50 @@ html {
 	height: 100%;
 	/* overflow-y: scroll; */
 	/* scroll-snap-type: y unset; */
+	margin-bottom: 280px;
 }
 
 .section-scroll {
 	/* scroll-snap-align: start; */
+}
+
+@media screen and (max-width: 1000px) {
+	#second_section {
+		display: none;
+	}
+
+	.hero {
+		height: 500px;
+		max-height: 500px;
+		position: relative;
+	}
+	.hero h1 {
+		font-size: 60px;
+	}
+	#mini-bio {
+		display: none;
+	}
+	.hero-bottom-info {
+		justify-content: flex-end;
+		padding: 6px 16px;
+	}
+}
+@media screen and (max-width: 700px) {
+
+	.hero h1 {
+		font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.hero h1 {
+		font-size: 42px;
+	}
+
+	
+	.hero {
+		height: 300px;
+		max-height: 300px;
+		position: relative;
+	}
 }
