@@ -10,7 +10,7 @@ import orangeBgSrc from "../public/images/orange_bg.png"
 import blueBgSrc from "../public/images/blue_bg.png"
 function Hero() {
 	return (
-		<div className="hero section-scroll">
+		<div className="hero section-scroll" data-scroll-section>
 			<div className="hero-title">
 				<h1>Eliška Sky</h1>
 			</div>
@@ -27,6 +27,7 @@ function Hero() {
 								objectPosition="center"
 								alt="women in blue"
 								placeholder="blur"
+								priority={true}
 							/>
 						</div>
 					</div>
@@ -55,8 +56,9 @@ function Hero() {
 								layout="fill"
 								objectFit="contain"
 								objectPosition="center"
-								alt="women in orange with background"
+								alt="women in orange "
 								placeholder="blur"
+								priority={true}
 							/>
 						</div>
 					</div>
@@ -69,7 +71,7 @@ function Hero() {
 								layout="fill"
 								objectFit="cover"
 								objectPosition="center"
-								alt="women in orange"
+								alt="women in orange with background"
 								placeholder="blur"
 							/>
 						</div>
