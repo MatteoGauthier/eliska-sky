@@ -31,6 +31,8 @@
 .biography__header-text h1 {
 	font-family: "Moniqa";
 	font-size: 129px;
+	font-weight: 800;
+	line-height: 100%;
 	display: inline-block;
 	margin: 0;
 }
