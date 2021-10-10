@@ -2,8 +2,9 @@ import clsx from "clsx"
 import React, { useRef } from "react"
 import { useInView } from "react-intersection-observer"
 import Image from "next/image"
+import ColorCircle from "./ColorCircle"
 
-function ArtWork({ reverse, description, image_src, title }) {
+function ArtWork({ reverse, description, image_src, title, colors }) {
 	const [ref, inView] = useInView({
 		triggerOnce: false,
 		rootMargin: "-100px 0px",
@@ -27,6 +28,11 @@ function ArtWork({ reverse, description, image_src, title }) {
 					<p>{description}</p>
 				</div>
 				<div className="artwork-separator">
+					<div className="colors-wrapper">
+						{colors.map((color, index) => (
+							<ColorCircle key={color + "-" + index} color={color} />
+						))}
+					</div>
 					<hr />
 				</div>
 			</div>

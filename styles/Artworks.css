@@ -63,3 +63,8 @@
 
 .artwork-separator {
 }
+.colors-wrapper {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 16px;
+}
